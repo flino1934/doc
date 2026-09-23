@@ -1,0 +1,21 @@
+COMO RECONSTRUIR A PASTA "final"
+=================================
+
+Os arquivos foram divididos em 4 partes (final.zip.001 a final.zip.004),
+cada uma abaixo de 25 MB. Junte TODAS as partes numa mesma pasta e extraia.
+
+Coloque os 4 arquivos na mesma pasta:
+  final.zip.001   (pasta "final pt1")
+  final.zip.002   (pasta "final pt2")
+  final.zip.003   (pasta "final pt3")
+  final.zip.004   (pasta "final pt4")
+
+--- Opcao 1: 7-Zip (mais facil) ---
+Clique com o botao direito em "final.zip.001" > 7-Zip > Extrair aqui.
+O 7-Zip junta automaticamente as 4 partes e recria a pasta "final".
+
+--- Opcao 2: Linha de comando (Windows) ---
+copy /b final.zip.001 + final.zip.002 + final.zip.003 + final.zip.004 final.zip
+Depois extraia o "final.zip" normalmente.
+
+IMPORTANTE: e preciso ter as 4 partes. Faltando qualquer uma, nao extrai.
